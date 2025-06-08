@@ -39,8 +39,9 @@
     
 ## Get the code  
    - Create your folder in your own location and use cd to move to your project folder. 
-   - Clone the repository:
+   - Clone the repository(Master Branch):
          git clone https://github.com/kp003919/SmartScaleRTOS_Demo.git
+                           
    - Open the arduino IDE or PlatformIO with Visual code
 
 ##  Usage
