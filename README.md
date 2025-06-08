@@ -22,15 +22,21 @@
    # Display circuit wiring 
       - CLK  pin from display to   pin 48  from ESP32 MCU
       - DIO   pin from display to   pin 47 from  ESP32 MCU 
+      - VCC  TO 5V from ESP32 
+      - GND  TO GND from ESP32 
 
    # HX711 circuit wiring
         - DOUT pin from HX711 is conencted to the pin  21  from the ESP32 MCU 
         - SCK  pin from HX711 is conencted to the pin  20  from the ESP32 MCU
+        - VCC  TO 5V from ESP32 
+        - GND  TO GND from ESP32 
+        
   # Load cell to XH711 circute wiring 
      - Red --> E+
      - Black --> E-
      - White --> A+
      - Green --> A-
+     
     
 ## Get the code  
    - Create your own folder in your own location and cd to move to your project. 
