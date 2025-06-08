@@ -1,8 +1,8 @@
 ## Title:
        Smart Weight Measuring Demo using ESP32 and HX711. 
        This demo shows the smart application to measure your own weight using ESP and HX711.
-       The current weight can be displayed on LED and Blynk cloud. User can also interact witht the demo 
-       using web interfacee, such as taring (rezeroing) the scale or displaying the current weight. 
+       The current weight can be displayed on LED and Blynk cloud. Users can also interact witht the demo 
+       using web interface, such as taring (zeroing) the scale or displaying the current weight. 
        
 ## Prerequisites
   # Softwares  
