@@ -16,8 +16,14 @@
     - HX711 
     - USB cable 
     - Laptop or PC 
+## Task breakdown 
+  In this demo, there are 4 tasks to do the folloing actions: 
+  - Task1: get the current weight from the load cell per 500ms.
+  - Task2: Display the current weight on the LED.
+  - Task3: Run web server and wait for requests from clients.
+  - Task4: send the current weight to the Cloud using Blynk platform. 
     
-# Create your Demo structure 
+#  Wiring circuit and description 
    # Display circuit wiring 
       - CLK  pin from display to   pin 48  from ESP32 MCU
       - DIO   pin from display to   pin 47 from  ESP32 MCU 
@@ -35,7 +41,14 @@
      - Black --> E-
      - White --> A+
      - Green --> A-
-     
+
+## Calibration Factor 
+   # -396.99 was selected as a calibration factor after testing many readins from the lead cell. 
+   # The more raw readings you test, the more acurate readings you could have. 
+   
+## Web server and Interface
+  - Web server is staretd once demo is started.
+  - Web interface is designed to ineract witht the demo by taring the scale or displaying the current weight. 
     
 ## Get the code  
    - Create your folder in your own location and use cd to move to your project folder. 
@@ -57,6 +70,8 @@
     - Open your browser and past your IP. 
     - Open your Blynk account and you should see your weight 
     - Try again with different weights. 
+
+## for more questions please find the report. 
 
 
     
